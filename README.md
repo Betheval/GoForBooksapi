@@ -67,7 +67,6 @@ Retrieves the first 100 books.
         "publisher": "Little, Brown and Company",
         "year": 1951
     },
-    ...
 ]
 ```
 
@@ -77,7 +76,7 @@ Retrieves a book by its ID.
 #### Parameters:
 ```json
 {
-    id: The book's ID (MongoDB ObjectID type).
+    "id": "The book's ID (MongoDB ObjectID type)".
 }
 ```
 #### Response Example:
@@ -97,7 +96,7 @@ Retrieves a book by its ID.
 Retrieves a book by its ISBN.
 #### Parameters:
 ```json
-    isbn: The book's ISBN.
+    "isbn": "The book's ISBN".
 ```
 #### Response Example:
 ```json
@@ -134,7 +133,7 @@ Adds a new book.
 Deletes a book by its ID.
 #### Parameters:
 ```json
-    id: The book's ID (MongoDB ObjectID type).
+    "id": "The book's ID (MongoDB ObjectID type)".
 ```
 #### Response Example:
 ```json
